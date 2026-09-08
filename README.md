@@ -51,3 +51,6 @@ El código separa claramente dos tipos de funciones:
 | `calculateLargestCategory()` | Determina la categoría con mayor gasto |
 | `addExpenseEntry(values)` | Agrega un nuevo gasto y actualiza el total |
 
+## Demo
+
+ [https://nef-espinosa14.github.io/web_project_expenses_es/](https://nef-espinosa14.github.io/web_project_expenses_es/)
