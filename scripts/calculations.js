@@ -20,7 +20,6 @@ const expenseEntries = [
 for (const entry of expenseEntries) {
     totalExpensesValue += entry [1];
 }
-console.log(`Valor total de los gastos: ${totalExpensesValue}`)
 
 
 function calculateAverageExpense() {
@@ -31,13 +30,11 @@ function calculateAverageExpense() {
 }
 
 const averageExpense = calculateAverageExpense();
-console.log(`El gasto promedio es: ${averageExpense}`);
 
 function calculateBalance() {
   return budgetValue - totalExpensesValue;
 }
 
-console.log(`El saldo es: ${calculateBalance()}`);
 
 let balanceColor = "green";
 
@@ -50,11 +47,7 @@ function updateBalanceColor() {
   } else {
     balanceColor = "green";
   }
-  return balanceColor;
 }
-
-balanceColor = updateBalanceColor();
-console.log(`El color del saldo es: ${balanceColor}`);
 
 
 function calculateCategoryExpenses(category) {
@@ -86,7 +79,6 @@ function calculateLargestCategory() {
 }
 
 const largestCategoryResult = calculateLargestCategory();
-console.log(`La categoria mas alta es: ${largestCategoryResult}`);
 
 
 function addExpenseEntry(values) {
